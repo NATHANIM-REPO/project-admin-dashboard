@@ -4,7 +4,7 @@
     margin: 0;
 }
 .container{
-    height: auto;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
@@ -190,4 +190,10 @@ grid-template-columns: 70% 30%;
 }
 .content1 div{
     border-left: solid 5px yellow;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+    border: solid 1px white;
 }
