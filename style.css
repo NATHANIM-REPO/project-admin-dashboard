@@ -199,7 +199,7 @@ grid-template-columns: 70% 30%;
 }
 .content2{
  display: grid;
-    grid-template-rows: 4% 48% 48% ;
+    grid-template-rows: 4% 46% 4% 46% ;
     gap: 1rem;
     padding: 2rem;
     padding-top: 4rem;
@@ -245,4 +245,38 @@ grid-template-columns: 70% 30%;
 }
 .line{
     border: solid 1px gray;
+}
+.contenttext2{
+    grid-area: 3 / 1 / 4 / 2;
+    font-weight: bold;
+    font-size: 24px;
+}
+.content2box2{
+    grid-area: 4 / 1 / 5 / 2;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    height: 15rem;
+
+}
+.instagram{
+    display: flex;
+    gap: 1rem;
+}
+.linkedln{
+    display: flex;
+    gap: 1rem;
+}
+.email{
+    display: flex;
+    gap: 1rem;
+}
+.phone{
+    display: flex;
+    gap: 1rem;
 }
