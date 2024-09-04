@@ -4,24 +4,25 @@
     margin: 0;
 }
 .container{
-    height: 170vh;
-    width: auto;
+    height: 150vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 23% 77%;
+    grid-template-rows: 20% 80%;
 }
 .header{
     background-color: #2e8a96;
-    display: grid;
-    grid-template: 50% 50% / 50% 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
     padding: 1.5rem;
-    column-gap: 5rem;
+    
     
 }
 .sec1{
     display: flex;
     gap: 2rem;
-    grid-area:  1 / 1 / 2 / 2 ;
+    justify-content: space-between;
     align-items: center;
 }
 .searchbar{
@@ -34,28 +35,28 @@
     display: flex;
     gap: 2rem;
     align-items: center;
+    justify-content: space-between;
 }
-.sec2 p{
+.sec1 p{
     font-size: 2rem;
     font-weight: bold;
     font-style: italic;
 }
-.sec3{
-    display: flex;
-    gap: 3rem;
-}
+
+
 .emoji{
     font-size: 4rem;
 }
 .headertext{
 font-size: 2rem;
 }
-.sec4{
+
+.buttons{
     display: flex;
-    column-gap: 2rem;
-    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
 }
-.sec4 p{
+.buttons p{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,9 +102,9 @@ grid-template-columns: 70% 30%;
 }
 .content1{
     display: grid;
-    grid-template: 4% 32% 32% 32% / 50% 50% ;
+    grid-template: 4% 23% 23% 23% / 50% 50% ;
     gap: 1rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 .content1 .projecttext{
     grid-area: 1 / 1 / 2 / 2;
@@ -118,10 +119,11 @@ grid-template-columns: 70% 30%;
 }
 .box1 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
 .box1 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .box2{
     grid-area: 2 / 2 / 3 / 3;
@@ -131,10 +133,11 @@ grid-template-columns: 70% 30%;
 }
 .box2 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
-.box1 .text2{
+.box2 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .box3{
     grid-area: 3 / 1  / 4 / 2;
@@ -144,10 +147,11 @@ grid-template-columns: 70% 30%;
 }
 .box3 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
 .box3 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .box4{
     grid-area: 3 / 2 / 4 / 3;
@@ -157,10 +161,11 @@ grid-template-columns: 70% 30%;
 }
 .box4 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
 .box4 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .box5{
     grid-area: 4 / 1 / 5 / 2;
@@ -170,10 +175,11 @@ grid-template-columns: 70% 30%;
 }
 .box5 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
 .box5 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .box6{
     grid-area: 4 / 2 / 5 / 3;
@@ -183,10 +189,11 @@ grid-template-columns: 70% 30%;
 }
 .box6 .text1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 16px;
 }
 .box6 .text2{
     text-align: justify;
+    font-size: 14px;
 }
 .content1 div{
     border-left: solid 5px yellow;
@@ -202,44 +209,44 @@ grid-template-columns: 70% 30%;
     grid-template-rows: 4% 46% 4% 46% ;
     gap: 1rem;
     padding: 2rem;
-    padding-top: 4rem;
+    
 }
 .content2 .contenttext{
     grid-column:  1 / 2;
     grid-row: 1 / 2;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 33px;
 }
 .section1 .text1{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 .section1 .text2{
     text-align: justify;
-    font-size: 13px;
+    font-size: 10px;
 }
 .section2 .text1{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 .section2 .text2{
     text-align: justify;
-    font-size: 13px;
+    font-size: 10px;
 }
 .section3 .text1{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 .section3 .text2{
     text-align: justify;
-    font-size: 13px;
+    font-size: 10px;
 }
 .content2box1{
     background-color: white;
     border-radius: 10px;
     padding: 20px 10px 10px;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-direction: column;
    
 }
